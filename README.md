@@ -1,73 +1,74 @@
-Bank Loan Report Dashboard (Power BI)
-📌 Project Overview
+# Bank Loan Report Dashboard (Power BI)
 
-An interactive Bank Loan Analysis Dashboard built using Power BI to monitor loan applications, funded amounts, repayments, and key financial metrics.
-Designed to provide actionable insights for loan performance tracking, borrower segmentation, and portfolio risk analysis.
+## 📌 Project Overview
+An **interactive Bank Loan Analysis Dashboard** built using **Power BI** to track loan applications, funded amounts, repayments, and key performance indicators.  
+Designed for **loan portfolio monitoring**, **risk assessment**, and **borrower segmentation**.
 
-📊 Key Features
-1. Summary View
+---
 
-KPIs:
+## 📊 Key Features
 
-38.6K Total Loan Applications
+### **1. Summary View**
+- **KPIs**:
+  - **38.6K** Total Loan Applications
+  - **$435.8M** Total Funded Amount
+  - **$473.1M** Total Amount Received
+  - **12.0%** Average Interest Rate
+  - **13.3%** Average DTI (Debt-to-Income Ratio)
+- **Loan Quality**:
+  - **Good Loans**: 86.2% (33.2K applications, $370.2M funded)
+  - **Bad Loans**: 13.8% (5.3K applications, $65.5M funded)
+- **Loan Status Table**:
+  - Fully Paid
+  - Current
+  - Charged Off  
+  (with financial details for each status)
 
-$435.8M Total Funded Amount
+---
 
-$473.1M Total Amount Received
+### **2. Overview View**
+- **Loan Applications by Month** – identifies seasonal demand trends.
+- **Loan Term Analysis** – split between 36-month and 60-month loans.
+- **Employment Length Segmentation** – shows borrower experience profiles.
+- **Loan Purpose Distribution** – e.g., Debt Consolidation, Home Improvement, Mortgage.
+- **Home Ownership Status** – Rent vs Mortgage vs Own.
 
-12.0% Average Interest Rate
+---
 
-13.3% Average DTI (Debt-to-Income ratio)
+### **3. Details View**
+- Full transactional loan data with filters for:
+  - **State**
+  - **Loan Grade & Sub-grade**
+  - **Loan Purpose**
+- Dynamic cross-filtering to drill down into specific loan segments.
 
-Loan Quality Breakdown:
+---
 
-Good Loans: 86.2% (33.2K applications, $370.2M funded)
+## 🔍 Key Insights
+- **Good Loans dominate** the portfolio at 86%, reflecting healthy lending practices.
+- **Debt Consolidation** is the top loan purpose by application count.
+- **Mortgage loans** generally have higher funded amounts.
+- Certain months show **spikes in loan demand**, useful for resource planning.
 
-Bad Loans: 13.8% (5.3K applications, $65.5M funded)
+---
 
-Loan Status Table: Fully Paid, Current, Charged Off with detailed financial amounts.
+## 🛠 Tools & Skills Used
+- **Power BI** – DAX Measures, Slicers, KPI Cards, Donut & Bar Charts.
+- **Data Modeling** – Relationships, calculated columns, measures.
+- **Data Cleaning** – Handling missing values, standardizing categories.
+- **Dashboard Design** – Navigation tabs, consistent color themes, interactive filtering.
 
-2. Overview View
+---
 
-Time Trends: Loan applications by month.
+## 📷 Dashboard Preview
+### Summary View
+![Summary](Summary.png)
 
-Loan Term Analysis: Distribution between 36-month and 60-month loans.
+### Overview View
+![Overview](Overview.png)
 
-Borrower Segmentation: Loan applications by employment length.
+### Details View
+![Details](Details.png)
 
-Purpose Analysis: Applications by loan purpose (e.g., Debt Consolidation, Home Improvement, Mortgage).
-
-Home Ownership Breakdown: Rent vs Mortgage vs Own.
-
-3. Details View
-
-Full transactional loan dataset with filters for:
-
-State
-
-Loan Grade & Sub-grade
-
-Loan Purpose
-
-Dynamic cross-filtering for deep-dive analysis.
-
-🔍 Insights Derived
-
-Majority of loans are Good Loans (86%), indicating strong portfolio health.
-
-Debt Consolidation is the most common loan purpose.
-
-Higher loan amounts are often linked to Mortgage category.
-
-Loan demand is fairly consistent but spikes at certain months.
-
-🛠 Tools & Skills Used
-
-Power BI: DAX measures, slicers, KPI visuals, card visuals, donut & bar charts.
-
-Data Modeling: Relationship creation, calculated columns, and measures.
-
-Data Cleaning: Handled missing values, standardized categories.
-
-Visualization Design: Dashboard layout, color themes, and interactive navigation tabs.
+---
 
