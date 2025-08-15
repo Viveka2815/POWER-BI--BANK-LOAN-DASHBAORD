@@ -60,15 +60,7 @@ Designed for **loan portfolio monitoring**, **risk assessment**, and **borrower 
 
 ---
 
-## 📷 Dashboard Preview
-### Summary View
-![Summary](Summary.png)
 
-### Overview View
-![Overview](Overview.png)
-
-### Details View
-![Details](Details.png)
 
 ---
 
