@@ -1,5 +1,7 @@
 # Bank Loan Report Dashboard (Power BI)
 
+https://app.powerbi.com/links/dqKm8iDMCJ?ctid=b188025d-601a-4988-829e-12bbd29d8f2e&pbi_source=linkShare
+
 ## 📌 Project Overview
 An **interactive Bank Loan Analysis Dashboard** built using **Power BI** to track loan applications, funded amounts, repayments, and key performance indicators.  
 Designed for **loan portfolio monitoring**, **risk assessment**, and **borrower segmentation**.
